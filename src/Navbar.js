@@ -1,10 +1,9 @@
 import React, {useContext} from 'react';
 import {links} from './data'
 import { FaBars } from 'react-icons/fa'
-import { AppContext } from './context'
-
+import { useGlobalContext } from './context'
 const Navbar = () => {
-    const { openSidebar } = useContext(AppContext)
+    const { openSidebar } = useGlobalContext()
     return (
         <nav className="nav-bar">
           <div className="nav-center">
