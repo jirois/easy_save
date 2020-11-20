@@ -1,13 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {links} from './data'
 import { FaBars } from 'react-icons/fa'
+import { AppContext } from './context'
 
 const Navbar = () => {
+    const { openSidebar } = useContext(AppContext)
     return (
-        <header>
+        <nav className="nav-bar">
+          <div className="nav-center">
             <div className="nav-header">
-                <h4>omas ajiri</h4>
-                <button className="icon-nav">
+                <h4>Dial to save</h4>
+                <button onClick={openSidebar} className="icon-nav">
                     <FaBars />
                 </button>
             </div>
@@ -23,7 +26,8 @@ const Navbar = () => {
                     )
                 })}
             </ul>
-        </header>
+            </div>
+        </nav>
     )
 }
 
