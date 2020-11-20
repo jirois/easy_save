@@ -1,5 +1,5 @@
 import React from 'react';
-import {links, social } from './data';
+import {links, socials } from './data';
 import { FaTimes } from 'react-icons/fa'
 import { useGlobalContext } from './context'
 const Sidebar = () => {
@@ -7,7 +7,7 @@ const Sidebar = () => {
     return (
         <aside  className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
             <div className="sidebar-header">
-                <button onClick={closeSidebar} className="btn close-sidebar-btn">
+                <button onClick={closeSidebar} className="close-sidebar-btn">
                     <FaTimes />
                 </button>
             </div>
@@ -25,9 +25,9 @@ const Sidebar = () => {
                     })
                 }
             </ul>
-            <ul className="social">
+            <ul className="social-sidebar">
                 {
-                    social.map((link) => {
+                    socials.map((link) => {
                         const {id, url, icon} = link;
                         return (
                             <li key={id}>
