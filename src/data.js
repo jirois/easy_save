@@ -34,7 +34,7 @@ export const links = [
     {
         id: 4,
         url: '/calendar',
-        text: 'calendar',
+        text: 'about',
         icon: <FaCalendarAlt />,
     },
     {
