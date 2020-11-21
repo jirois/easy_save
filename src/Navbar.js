@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import {links} from './data'
 import { FaBars } from 'react-icons/fa'
 import { useGlobalContext } from './context'
