@@ -220,7 +220,7 @@ nav {
   }
 
   .nav-items::before {
-    content: "Dial to save";
+    content: "Easy save";
     display: block;
     border-bottom: 1px solid;
     text-transform: capitalize;
@@ -245,7 +245,7 @@ nav {
     font-family: sans-serif;
     text-transform: capitalize;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     color: var(--main-color);
   }

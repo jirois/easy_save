@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="nav-bar">
           <div className="nav-center">
             <div className="nav-header">
-                <h4>Dial to save</h4>
+                <h4>Easy Save</h4>
                 <button onClick={openSidebar} className="icon-nav">
                     <FaBars />
                 </button>
