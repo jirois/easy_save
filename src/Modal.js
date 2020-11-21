@@ -11,7 +11,7 @@ const Modal = () => {
             <button onClick={closeModal} className="btn modal-btn"><FaTimes /></button>
             <iframe className="video-frame" 
             title="Our path"
-            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            src="https://www.youtube.com/embed/B3ah-FrpG4M?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div> 
         </div>
     )
