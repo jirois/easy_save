@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import {links} from './data'
 import { FaBars } from 'react-icons/fa'
 import { useGlobalContext } from './context'
@@ -18,9 +19,9 @@ const Navbar = () => {
                     const {id, url, text, icon} = link;
                     return (
                         <li key={id}>
-                            <a href={url}>
+                            <Link to={url}>
                                 {icon}
-                                {text}</a>
+                                {text}</Link>
                         </li>
                     )
                 })}
