@@ -1,7 +1,7 @@
 import React from 'react';
-import {links, socials } from './data';
+import {links, socials } from '../../data';
 import { FaTimes } from 'react-icons/fa'
-import { useGlobalContext } from './context'
+import { useGlobalContext } from '../../context'
 const Sidebar = () => {
     const { isSidebarOpen, closeSidebar } = useGlobalContext()
     return (

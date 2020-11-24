@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import {links} from './data'
+import {links} from '../../data'
 import { FaBars } from 'react-icons/fa'
-import { useGlobalContext } from './context'
+import { useGlobalContext } from '../../context'
 const Navbar = () => {
     const { openSidebar } = useGlobalContext()
     return (

@@ -1,28 +1,23 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Nav from './components/Nav';
+import Home from './components/Home';
 import Team from './components/Team';
 import About from './components/About';
-import Footer from './Footer'
-import Hero from './Hero'
-import Navbar from './Navbar'
-import Sidebar from './Sidebar'
-import Modal from './Modal'
+import Projects from './components/Project';
+
 function App() {
   return (
-    <>
-    <Navbar  />
-    <Hero />
-    <Sidebar/>
-    <Modal />
-    <main>
-      <Switch>
-          <Route path='/about' component={About} />
-          <Route path='/team' component={Team} />
+   <Router>
+     <Nav />
+     <switch>
+       <Route path='/' exact component={Home} />
+       <Route path='/team' component={Team} />
+       <Route path='/projects' component={Projects} />
+       <Route path='/about' component={About} />
 
-      </Switch>
-    </main>
-    <Footer />
-    </>
+     </switch>
+   </Router>
   );
 }
 
