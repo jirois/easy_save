@@ -10,13 +10,13 @@ function App() {
   return (
    <Router>
      <Nav />
-     <switch>
+     <Switch>
        <Route path='/' exact component={Home} />
        <Route path='/team' component={Team} />
        <Route path='/projects' component={Projects} />
        <Route path='/about' component={About} />
 
-     </switch>
+     </Switch>
    </Router>
   );
 }

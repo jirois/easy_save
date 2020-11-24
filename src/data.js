@@ -86,3 +86,21 @@ export const socials = [
     }
 ]
 
+export const teams = [
+    {
+        id: 1,
+        image: 'https://res.cloudinary.com/jinncy/image/upload/v1606221500/austin_pcio6n.jpg',
+        name: 'Mr Austin',
+        info: `Mr Austin is an avid believer of Nigeria and loves to help in anyway posible. Mr austin is very much invested in micro economy. This are what strengthen his convinction about saving to make wealth`,
+        position: 'Project Manager'
+    },
+    {
+        id: 2,
+        image: 'https://res.cloudinary.com/jinncy/image/upload/v1606224474/omas_ajiri_efte93.jpg',
+        name: 'Omas Ajiri',
+        info: `Mr Omas is an avid believer of Nigeria and loves to help in anyway posible. He is also an interested candidate of the Nigeria presidency come 2033.`,
+        position: 'Project Lead'
+    }
+    
+]
+
