@@ -27,8 +27,8 @@ export const links = [
     },
     {
         id: 3,
-        url: '/projects',
-        text: 'projects',
+        url: '/contact',
+        text: 'contact',
         icon: <FaFolderOpen />,
     },
     {

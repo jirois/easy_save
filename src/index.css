@@ -350,21 +350,8 @@ article {
   border: 1px solid #fff;
 }
 
-.horizon-bottom {
-  display: block;
-  width: 75%;
-  position: absolute;
-  bottom: 14rem;
-  left: 2rem;
-  right: 2rem;
-  margin: auto;
-  border: 1px solid #fff;
-}
 @media screen and (min-width: 456px) {
   .horizon {
-    display: none;
-  }
-  .horizon-bottom {
     display: none;
   }
 }
@@ -459,9 +446,9 @@ Sidebar
   border-color: transparent;
   font-size: 2.2rem;
   background: transparent;
-  margin-right: 4px;
-  margin-left: 4px;
-  margin-top: 1rem;
+  width: 100%;
+  margin: 1rem 4px 0 4px;
+  margin-right: 13px;
   padding: 0 1.5rem 0.2rem;
   color: var(--main-color);
   transition: var(--transition);
@@ -481,8 +468,8 @@ Sidebar
 
 .links a {
   display: block;
-  padding: 0.8rem 0;
-  font-size: 0.9rem;
+  padding: 1.1rem 0;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--clr-white);
   font-family: var(--ff-secondary);
@@ -511,7 +498,7 @@ Sidebar
   grid-gap: 10px;
 }
 .social-icons a {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: var(--main-color);
 }
 
@@ -672,5 +659,44 @@ The Team
     width: 35%;
     margin: 0 auto;
     margin-right: 0;
+  }
+}
+
+/* 
+=============
+About
+=============
+*/
+.about {
+  background: var(--clr-white);
+  padding: 3rem 5rem 10rem;
+  margin-top: -2rem;
+}
+.about h2 {
+  margin-bottom: 0;
+  font-family: var(--ff-primary);
+}
+.about .underline {
+  width: 4rem;
+}
+
+.about-content {
+  margin-top: 1.8rem;
+}
+
+.about h4 {
+  font-size: 1.4rem;
+  font-family: var(--ff-secondary);
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+@media screen and (min-width: 657px) {
+  .about {
+    padding: 3rem 5rem 15rem 15rem;
   }
 }
