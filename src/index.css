@@ -578,7 +578,7 @@ The Team
 ================ 
 */
 .team {
-  padding: 3rem 1rem;
+  padding: 1.8rem 1rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -595,7 +595,7 @@ The Team
 }
 .underline {
   width: 140px;
-  height: 8px;
+  height: 4px;
   margin: 0 auto;
   background: var(--main-color);
 }
@@ -660,4 +660,17 @@ The Team
   line-height: 1.5;
   font-family: var(--ff-secondary);
   justify-items: center;
+}
+
+@media screen and (min-width: 657px) {
+  .team-container {
+    display: flex;
+    justify-content: center;
+  }
+  .team-member {
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+    margin-right: 0;
+  }
 }

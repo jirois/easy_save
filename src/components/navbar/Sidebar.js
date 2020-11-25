@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import {links, socials } from '../../data';
 import { FaTimes } from 'react-icons/fa'
 import { useGlobalContext } from '../../context'
@@ -17,9 +18,9 @@ const Sidebar = () => {
                         const {id, url, text} = link;
                         return (
                             <li key={id}>
-                                <a href={url}>
+                                <Link to={url}>
                                     {text}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })

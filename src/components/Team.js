@@ -8,6 +8,7 @@ const Team = () => {
                 <h2>Meet The Team</h2>
                 <div className="underline"></div>
             </div>
+            <div className="team-container">
             {
                 teams.map((team) => {
                     const { id, image, name, info, position } = team;
@@ -25,6 +26,7 @@ const Team = () => {
                     )
                 })
             }
+            </div>
         </article>
     )
 }
