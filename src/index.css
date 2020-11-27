@@ -683,7 +683,7 @@ About
 */
 .about {
   background: var(--clr-white);
-  padding: 3rem 5rem 10rem;
+  padding: 3rem 3rem 10rem;
   margin-top: -2rem;
 }
 .about h2 {
@@ -704,8 +704,8 @@ About
 }
 
 .about p {
-  font-size: 1.1rem;
-  line-height: 1.4;
+  font-size: 1.2rem;
+  line-height: 1.6;
   text-align: justify;
 }
 
