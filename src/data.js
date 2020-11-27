@@ -91,7 +91,7 @@ export const teams = [
         id: 1,
         image: 'https://res.cloudinary.com/jinncy/image/upload/v1606221500/austin_pcio6n.jpg',
         name: 'Mr Austin',
-        info: `Mr Austin is an avid believer of Nigeria and loves to help in anyway posible. Mr austin is very much invested in micro economy. This are what strengthen his convinction about saving to make wealth`,
+        info: `Mr Austin is an avid believer of Nigeria and loves to help in anyway posible. Mr austin is very much invested in micro economy. These are what strengthen his conviction about saving to make wealth`,
         position: 'Project Manager'
     },
     {

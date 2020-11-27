@@ -13,7 +13,7 @@ function Hero(){
                 onClick={openModal}
                 className="btn btn-hero">play video</button>
             </div>
-            <hr className="horizon-bottom" />
+            
         </article>
     )
 }
