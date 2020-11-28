@@ -741,7 +741,7 @@ Contact form
   text-align: center;
   font-style: italic;
   font-family: var(--ff-primary);
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.8rem;
 }
 
 .form-control {
@@ -753,7 +753,7 @@ Contact form
 
 .form-control label {
   display: block;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -764,6 +764,7 @@ Contact form
   padding: 1rem 8px;
   border-color: transparent;
   background: var(--clr-grey-10);
+  margin-bottom: 1rem;
 }
 .form-control input::placeholder,
 textarea::placeholder {
