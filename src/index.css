@@ -786,7 +786,16 @@ textarea::placeholder {
   justify-content: center;
 }
 .submit-btn {
-  padding: 0.4rem 5rem;
+  padding: 0.8rem 5rem;
   background: var(--main-color);
   border-color: transparent;
+}
+
+@media screen and (min-width: 800px) {
+  .contact {
+    padding: 0 5rem 5rem 15rem;
+  }
+  .submit-btn {
+    padding: 1rem 8rem;
+  }
 }
