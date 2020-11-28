@@ -586,13 +586,14 @@ The Team
 }
 
 .team-heading {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .team-heading h2 {
   font-family: var(--ff-primary);
   font-weight: 800;
   letter-spacing: var(--spacing);
   font-size: 1.9rem;
+  margin-bottom: 0;
 }
 .underline {
   width: 140px;
@@ -713,4 +714,78 @@ About
   .about {
     padding: 3rem 5rem 15rem 15rem;
   }
+}
+
+/* 
+==============
+Contact form
+==============
+ */
+.contact {
+  margin-top: 1.5rem;
+}
+.contact h2 {
+  margin-bottom: 0;
+  font-family: var(--ff-primary);
+}
+.contact-form {
+  padding: 3rem 2rem 1rem;
+  width: 90%;
+  margin: 1.5rem auto;
+  background: var(--clr-white);
+  box-shadow: var(--light-shadow);
+  border-radius: 1rem;
+}
+.contact-form h4 {
+  font-size: 1.6rem;
+  text-align: center;
+  font-style: italic;
+  font-family: var(--ff-primary);
+  margin-bottom: 1.3rem;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  text-align: start;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.form-control input {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem 8px;
+  border-color: transparent;
+  background: var(--clr-grey-10);
+}
+.form-control input::placeholder,
+textarea::placeholder {
+  font-size: 1.1rem;
+  color: var(--clr-grey-5);
+  font-style: italic;
+}
+.form-control textarea {
+  width: 100%;
+  height: 20vh;
+  border-radius: 4px;
+  padding: 4px;
+  border-color: transparent;
+  background: var(--clr-grey-10);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  padding: 0.4rem 5rem;
+  background: var(--main-color);
+  border-color: transparent;
 }
